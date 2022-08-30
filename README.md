@@ -4,3 +4,4 @@ This library is intended to be used on an Arduino microcontroller dedicated to c
 
 The library features a setup routine and a command routine. The setup routine prompts the user if they already know the settings or to go through the manual setup. It is recommended if you do not know the position settings to proceed with a manual setup in configuration 2 (figure 2). This will allow you to get the position of joint limits. After that you can proceed with configuration 1 (figure 2) to just supply the settings and move on. After setup, the command routine can be used to instruct the controller to move the stepper to a position at a certain speed, request current settings, and to stop mid command.
 
+![LightningStepper_LogicalDiagram](https://user-images.githubusercontent.com/62961062/187461511-234f4707-908e-4d93-a091-7bb13695cb58.jpeg)
