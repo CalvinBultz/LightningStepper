@@ -41,7 +41,9 @@ https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries
 Software Bill of materials:
   
 -Arduino.h   Version at 9/1/2022. This is the Arduino Programming Language and to my understanding it is updated along with the Arduino IDE. The version of the IDE at time of the LightningStepper library creation was Arduino IDE 2.0.0-beta.3
+  
 -LightningStepper.h  Version 1.0 Created 9/1/2022
+  
 -LightningStepper.cpp  Version 1.0 Created 9/1/2022
 
 Conclusion:
