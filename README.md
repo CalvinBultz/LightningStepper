@@ -20,4 +20,5 @@ No Reply
 
 Command Notes:
 Speed is [1-100]   1 the slowest. 100 the fastest.
+
 Direction 1=cw currentPosition increases, 2=ccw currentPosition decreases
