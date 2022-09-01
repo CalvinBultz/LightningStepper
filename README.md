@@ -12,9 +12,11 @@ Commands:
 Cmd 1-get the motor's details.  
 Send: 1      
 Replies: Strike(Settings: currentPosition,maxPosition,currentDelay,minDelay,maxDelay)
+
 Cmd 2-move to position.            
 Send: 2,speed,steps,direction     
-No Reply              
+No Reply
+
 Cmd 3 stop.             
 Send: 3         
 No Reply
