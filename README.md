@@ -43,8 +43,16 @@ https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries
 Software Bill of materials:
 
 -Arduino.h   Version at 9/1/2022. This is the Arduino Programming Language and to my understanding it is updated along with the Arduino IDE. The version of the IDE at time of the LightningStepper library creation was Arduino IDE 2.0.0-beta.3
+  
 -LightningStepper.h  Version 1.0 Created 9/1/2022 By Calvin Bultz
+  
 -LightningStepper.cpp  Version 1.0 Created 9/1/2022 By Calvin Bultz
+  
 -LightningStepper_StepperController.ino Version 1.0 Created 9/1/2022 By Calvin Bultz
+  
 -LightningStepper_CommandController.ino Version 1.0 Created 9/1/2022 By Calvin Bultz
+
+Disclaimer:
+  
+This disclaimer applies to the content in this Github repository, LightningStepper found at https://github.com/CalvinBultz/LightningStepper.git. More specifically, this applies to the library’s LightningStepper.h file, the library’s LightningStepper.cpp file, the example Arduino sketch LightningStepper_CommandController.ino file, the example Arduino sketch LightningStepper_StepperController.ino file, and the README.md file. These files contain code, instructions, and configurations that can be used at your own risk. These files contain code, instructions, and configurations that are “as-is”.  The files themselves are “as-is”.  Calvin Bultz has provided these files in the repository on a “as-is” basis and makes no warranties regarding any information, content, or licenses provided on or through it and disclaims liability for damages resulting from using or referring to the content of this repository, LightningStepper. If you do use these files, use caution as you are making things move and interacting with delicate components. Also, please follow all applicable rules, licenses, and regulations that apply. 
 
