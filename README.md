@@ -10,6 +10,7 @@ This library features a setup routine and a run routine. The setup routine promp
 Nearly as important as the library, there is an example sketch included called LightningStepper_CommandController. This demonstrates how to code a command controller in configuration 1 (figure 2) to talk to the stepper controller. In summary, the commands the stepper controller receives once setup are below.
 
 Commands:
+
 Cmd 1- get the motor's details.  
 Send: 1      
 Replies: Strike(Settings: currentPosition,maxPosition,currentDelay,minDelay,maxDelay)
