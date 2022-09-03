@@ -24,6 +24,7 @@ Send: 3
 No Reply
 
 Command Notes:
+
 Speed is [1-100]. 1 being the slowest. 100 being the fastest.
 Direction 1=cw (currentPosition increases), 2=ccw (currentPosition decreases)
 There are 3 pins used for interrupts and logic. Refer to the command controller example.
