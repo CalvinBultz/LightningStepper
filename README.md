@@ -8,3 +8,21 @@ This library features a setup routine and a run routine. The setup routine promp
 ![image](https://user-images.githubusercontent.com/62961062/188285131-95b021be-756a-48e6-ab5e-2542d37f27f8.png)
 
 Nearly as important as the library, there is an example sketch included called LightningStepper_CommandController. This demonstrates how to code a command controller in configuration 1 (figure 2) to talk to the stepper controller. In summary, the commands the stepper controller receives once setup are below.
+
+Commands:
+Cmd 1- get the motor's details.  
+Send: 1      
+Replies: Strike(Settings: currentPosition,maxPosition,currentDelay,minDelay,maxDelay)
+
+Cmd 2- move to position.            
+Send: 2,speed,steps,direction     
+No Reply              
+
+Cmd 3- stop.             
+Send: 3         
+No Reply
+
+Command Notes:
+Speed is [1-100]. 1 being the slowest. 100 being the fastest.
+Direction 1=cw (currentPosition increases), 2=ccw (currentPosition decreases)
+There are 3 pins used for interrupts and logic. Refer to the command controller example.
