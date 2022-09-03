@@ -6,3 +6,5 @@
 This library features a setup routine and a run routine. The setup routine prompts the user if they already know the settings or to go through the manual setup. It is recommended if you do not know the position settings to proceed with a manual setup in configuration 2 (figure 2). This will allow you to get the position of joint limits. Physical limit switches are recommended. After that you can proceed with configuration 1 (figure 2) to just supply the settings and move on. After setup, the stepper controller can be instructed to move the stepper to a position at a certain speed, request current settings, and to stop.
 
 ![image](https://user-images.githubusercontent.com/62961062/188285131-95b021be-756a-48e6-ab5e-2542d37f27f8.png)
+
+Nearly as important as the library, there is an example sketch included called LightningStepper_CommandController. This demonstrates how to code a command controller in configuration 1 (figure 2) to talk to the stepper controller. In summary, the commands the stepper controller receives once setup are below.
