@@ -34,3 +34,8 @@ Serial Communication Notes:
   This library requires the newline characters ‘\n’ sent after every message received. In response, this library will add the ‘\r’ carriage return and newline characters ‘\n’ sent after every message. It uses println described in the link below.
 https://www.arduino.cc/reference/en/language/functions/communication/serial/println/ .
 The baud rate needs to be set to 9600 and all messages received need to be inside a Message() block. If you are in configuration 2 (figure 2), the Arduino IDE serial monitor has a drop down to select “newline”. Ensure you do so. Also, the IDE will send Message(<whatever you typed>) automatically. The LightningStepper library also uses a block around transmissions as it makes serial communication parsing easier. The block of all messages from this library arrive as Strike(<the response>).
+  
+Download instructions:
+This is intended to be used with the Arduino IDE and can be downloaded through library manager as described in the link.
+https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries
+
